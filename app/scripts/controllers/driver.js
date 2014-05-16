@@ -11,6 +11,6 @@ angular.module('F1FeederApp.controllers').
     });
 
     ergastAPIservice.getDriverRaces($scope.id).success(function (response) {
-        $scope.races = response.MRData.RaceTable.Races; 
+        $scope.races = response.MRData.RaceTable.Races;
     }); 
   });
